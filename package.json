@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha test.js",
-    "build": "npm install && tsc --build"
+    "build": "npm install && tsc --build",
+    "dev": "tsc --watch"
   },
   "repository": {
     "type": "git",
