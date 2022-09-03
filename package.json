@@ -1,0 +1,36 @@
+{
+  "name": "environment-variables",
+  "version": "1.0.0",
+  "description": "Set and get variables during runtime all around under Map object",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jxmked/NPM-Environment-Variables.git"
+  },
+  "files":[
+      "index.js",
+      "package.json",
+      "LICENSE",
+      "README.md",
+      "index.d.ts"
+  ],
+  "keywords": [
+    "object",
+    "map-object",
+    "map",
+    "env-variables",
+    "environment-variable",
+    "env",
+    "runtime-variables"
+  ],
+  "author": "jxmked",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jxmked/NPM-Environment-Variables/issues"
+  },
+  "support": true,
+  "homepage": "https://github.com/jxmked/NPM-Environment-Variables#readme"
+}
