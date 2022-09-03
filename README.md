@@ -6,7 +6,7 @@ Set and get variables during runtime all around under Map object
 
 ## Installation
 
-`npm i --save environment-variables`
+`npm i --save env-res`
 
 ## Usage
 
