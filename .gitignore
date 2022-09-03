@@ -105,5 +105,5 @@ dist
 
 
 index.js
-/test/test.js
-/test/*.d.ts
+test.js
+*.d.ts
