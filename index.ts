@@ -10,7 +10,7 @@ declare global {
 
 global.ENVIRONMENT_VARIABLES = global.ENVIRONMENT_VARIABLES || new Map();
 
-global.ENVIRONMENT_VARIABLES.prototype.remove = global.ENVIRONMENT_VARIABLES.prototype.delete;
+//global.ENVIRONMENT_VARIABLES.prototype.remove = global.ENVIRONMENT_VARIABLES.prototype.delete;
 
 const ENV:ReturnType<typeof global.ENVIRONMENT_VARIABLES> = global.ENVIRONMENT_VARIABLES;
 
