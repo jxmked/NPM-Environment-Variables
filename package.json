@@ -1,5 +1,5 @@
 {
-  "name": "environment-variables",
+  "name": "env-res",
   "version": "1.0.0",
   "description": "Set and get variables during runtime all around under Map object",
   "main": "index.js",
