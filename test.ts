@@ -1,5 +1,5 @@
 import assert from 'assert';
-import envRes from '../index.js';
+import envRes from './index.js';
 
 
 const KEY:string = "foo";
