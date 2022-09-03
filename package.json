@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha test.js",
-    "build": "npm install && tsc --build",
+    "build": "npm ci && tsc --build",
     "dev": "tsc --watch"
   },
   "repository": {
