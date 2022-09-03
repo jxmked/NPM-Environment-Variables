@@ -1,18 +1,18 @@
 #!/usr/bin/env node
 
-declare global {
-    const global: any;
-}
-
 /**
 * Set a value for global ENVIRONMENT_VARIABLES
 * */
+
+declare global {
+	var ENVIRONMENT_VARIABLES:Map<any, any>;
+}
 
 global.ENVIRONMENT_VARIABLES = global.ENVIRONMENT_VARIABLES || new Map();
 
 //global.ENVIRONMENT_VARIABLES.prototype.remove = global.ENVIRONMENT_VARIABLES.prototype.delete;
 
-const ENV:ReturnType<typeof global.ENVIRONMENT_VARIABLES> = global.ENVIRONMENT_VARIABLES;
+const ENV:Map<any, any> = global.ENVIRONMENT_VARIABLES;
 
 // Choose what you want...
 export default ENV;
@@ -24,7 +24,7 @@ export {
     ENV as GLOBAL_ENVIRONMENT
 }
 
-// @ts-ignore
+
 delete require.cache[__filename];
 
 /**

@@ -4,7 +4,7 @@
   "description": "Set and get variables during runtime all around under Map object",
   "main": "index.js",
   "scripts": {
-    "test": "exit 0",
+    "test": "mocha --reporter list",
     "build": "npm install && tsc --build"
   },
   "repository": {
@@ -35,6 +35,9 @@
   "support": true,
   "homepage": "https://github.com/jxmked/NPM-Environment-Variables#readme",
   "devDependencies": {
+    "@types/jest": "^29.0.0",
+    "@types/mocha": "^9.1.1",
+    "mocha": "^10.0.0",
     "typescript": "^4.8.2"
   }
 }
