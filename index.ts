@@ -10,22 +10,19 @@ declare global {
 
 global.ENVIRONMENT_VARIABLES = global.ENVIRONMENT_VARIABLES || new Map();
 
-//global.ENVIRONMENT_VARIABLES.prototype.remove = global.ENVIRONMENT_VARIABLES.prototype.delete;
-
 const ENV:Map<any, any> = global.ENVIRONMENT_VARIABLES;
 
-// Choose what you want...
+(module).exports = ENV;
 export default ENV;
+
 export {
     ENV,
     ENV as ENVIRONMENT,
-    ENV as ENV_VARIABLES,
-    ENV as GLOBAL_ENV,
-    ENV as GLOBAL_ENVIRONMENT
+    ENV as envRes
 }
 
 
-// delete require.cache[__filename];
+delete require.cache[__filename];
 
 /**
 * Written by Jovan De Guia
