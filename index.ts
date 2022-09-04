@@ -25,7 +25,7 @@ export {
 }
 
 
-delete require.cache[__filename];
+// delete require.cache[__filename];
 
 /**
 * Written by Jovan De Guia
