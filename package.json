@@ -1,7 +1,7 @@
 {
   "name": "env-res",
   "version": "1.0.4",
-  "description": "Set and get variables during runtime all around under Map object",
+  "description": "Use `process` to set and get value from different file during runtime.",
   "main": "index.js",
   "scripts": {
     "test": "mocha test.js",
