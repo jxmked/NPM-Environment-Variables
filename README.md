@@ -1,7 +1,7 @@
 # NPM-Environment-Variables
-Set and get variables during runtime all around under Map object
+Use `process` to set and get value from different file during runtime.
  
-> Using `Map` object to easily access global variables
+> Using `Map` object to easily access global variables from different files
 
 
 ## Installation
