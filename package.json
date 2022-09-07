@@ -1,6 +1,6 @@
 {
   "name": "env-res",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Use `process` to set and get value from different file during runtime.",
   "main": "index.js",
   "scripts": {
