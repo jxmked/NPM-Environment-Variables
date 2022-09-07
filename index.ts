@@ -5,12 +5,12 @@
 * */
 
 declare global {
-	var ENVIRONMENT_VARIABLES:Map<any, any>;
+	var __ENVIRONMENT_VARIABLES__:Map<any, any>;
 }
 
-global.ENVIRONMENT_VARIABLES = global.ENVIRONMENT_VARIABLES || new Map();
+global.__ENVIRONMENT_VARIABLES__ = global.__ENVIRONMENT_VARIABLES__ || new Map();
 
-const ENV:Map<any, any> = global.ENVIRONMENT_VARIABLES;
+const ENV:Map<any, any> = global.__ENVIRONMENT_VARIABLES__;
 
 (module).exports = ENV;
 export default ENV;
@@ -22,7 +22,7 @@ export {
 }
 
 
-delete require.cache[__filename];
+//delete require.cache[__filename];
 
 /**
 * Written by Jovan De Guia
