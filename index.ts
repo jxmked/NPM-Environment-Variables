@@ -10,19 +10,8 @@ declare global {
 
 global.__ENVIRONMENT_VARIABLES__ = global.__ENVIRONMENT_VARIABLES__ || new Map();
 
-const ENV:Map<any, any> = global.__ENVIRONMENT_VARIABLES__;
-
-(module).exports = ENV;
-export default ENV;
-
-export {
-    ENV,
-    ENV as ENVIRONMENT,
-    ENV as envRes
-}
-
-
-//delete require.cache[__filename];
+(module).exports = global.__ENVIRONMENT_VARIABLES__;
+export default global.__ENVIRONMENT_VARIABLES__;
 
 /**
 * Written by Jovan De Guia
