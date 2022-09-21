@@ -4,7 +4,7 @@
   "description": "Use `process` to set and get value from different file during runtime.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -r jsdom-global/register test.js",
+    "test": "mocha test.js",
     "build": "npm ci && tsc --build",
     "dev": "tsc --watch"
   },

@@ -8,7 +8,7 @@ declare global {
 	var __ENVIRONMENT_VARIABLES__:Map<any, any>;
 	interface Window { __ENVIRONMENT_VARIABLES__:Map<any, any> }
 }
-
+/*
 const isWindow:boolean = (function(){
 	const check:Function = ():boolean => {
 		try {
@@ -20,11 +20,11 @@ const isWindow:boolean = (function(){
 
 	return check();
 }());
+*/
 
+type R = /*typeof window | */ typeof global;
 
-type R = typeof window | typeof global;
-
-const e:R = (isWindow) ? window : global;
+const e:R = /*(isWindow) ? window :*/ global;
 
 e.__ENVIRONMENT_VARIABLES__ = e.__ENVIRONMENT_VARIABLES__ || new Map();
 
